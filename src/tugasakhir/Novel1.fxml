@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="714.0" prefWidth="769.0" style="-fx-background-color: #FFDEAD;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tugasakhir.Novel1Controller">
+   <children>
+      <Label layoutX="46.0" layoutY="22.0" prefHeight="43.0" prefWidth="87.0" text="Novel">
+         <font>
+            <Font name="Luna" size="24.0" />
+         </font>
+      </Label>
+      <Separator layoutX="26.0" layoutY="82.0" prefWidth="200.0" style="-fx-background-color: #191970;" />
+      <ImageView fitHeight="186.0" fitWidth="130.0" layoutX="14.0" layoutY="116.0">
+         <image>
+            <Image url="@../gambar/n1.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="149.0" layoutY="116.0" prefHeight="186.0" prefWidth="222.0" text="--Bad Boys Vs Crazy Girls--&#10;Rp 75.650&#10;No. ISBN207280149&#10;PenulisASRIACI&#10;PenerbitBest Media &#10;Tanggal terbitNovember - 2016&#10;Jumlah Halaman464&#10;Berat Buku430 gr" />
+      <Button fx:id="buttonn1" layoutX="279.0" layoutY="263.0" mnemonicParsing="false" onAction="#n1" text="Pesan" />
+      <ImageView fitHeight="186.0" fitWidth="130.0" layoutX="399.0" layoutY="115.0">
+         <image>
+            <Image url="@../gambar/n2.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="533.0" layoutY="116.0" prefHeight="186.0" prefWidth="222.0" text="--Ketua OSIS KOPLAK --&#10;Rp 63.750&#10;No. ISBN9786026716125&#10;PenulisWISNU MAULANA&#10;PenerbitPastel Books &#10;Tanggal terbitNovember - 2017&#10;Jumlah Halaman352&#10;Berat Buku350 gr" />
+      <Button fx:id="buttonn2" layoutX="680.0" layoutY="263.0" mnemonicParsing="false" onAction="#n2" text="Pesan" />
+      <ImageView fitHeight="186.0" fitWidth="130.0" layoutX="14.0" layoutY="309.0">
+         <image>
+            <Image url="@../gambar/n3.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="149.0" layoutY="309.0" prefHeight="186.0" prefWidth="222.0" text="--Tentang Kamu--&#10;Rp 55.300&#10;No. ISBN9786020822341&#10;PenulisTere-Liye&#10;PenerbitRepublika &#10;Tanggal terbitOktober - 2016&#10;Jumlah Halaman524&#10;Berat Buku470 gr" />
+      <Button fx:id="buttonn3" layoutX="279.0" layoutY="451.0" mnemonicParsing="false" onAction="#n3" text="Pesan" />
+      <ImageView fitHeight="186.0" fitWidth="130.0" layoutX="399.0" layoutY="309.0">
+         <image>
+            <Image url="@../gambar/n4.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="533.0" layoutY="309.0" prefHeight="186.0" prefWidth="222.0" text="--Fall--&#10;Rp 66.000&#10;No. ISBN9789797809072&#10;PenulisBella Zmr&#10;PenerbitGagasMedia &#10;Tanggal terbitNovember - 2017&#10;Jumlah Halaman364&#10;Berat Buku350 gr" />
+      <Button fx:id="buttonn4" layoutX="680.0" layoutY="451.0" mnemonicParsing="false" onAction="#n4" text="Pesan" />
+      <ImageView fitHeight="186.0" fitWidth="130.0" layoutX="14.0" layoutY="503.0">
+         <image>
+            <Image url="@../gambar/n5.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="149.0" layoutY="503.0" prefHeight="186.0" prefWidth="222.0" text="--Flesh Out--&#10;Rp 63.750&#10;No. ISBN9786023759774&#10;PenulisBellazmr&#10;PenerbitGrasindo &#10;Tanggal terbitJuli - 2017&#10;Jumlah Halaman316&#10;Berat Buku250 gr" />
+      <Button fx:id="buttonn5" layoutX="279.0" layoutY="641.0" mnemonicParsing="false" onAction="#n5" text="Pesan" />
+      <ImageView fitHeight="186.0" fitWidth="130.0" layoutX="399.0" layoutY="503.0">
+         <image>
+            <Image url="@../gambar/n6.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="533.0" layoutY="503.0" prefHeight="186.0" prefWidth="222.0" text="--Dear Heart Why Him? --&#10; Rp 43.200&#10;No. ISBN9786024301880&#10;PenulisHaula S.&#10;PenerbitBentang Belia &#10;Tanggal terbitNovember - 2017&#10;Jumlah Halaman260&#10;Berat Buku250 gr" />
+      <Button fx:id="buttonn6" layoutX="680.0" layoutY="654.0" mnemonicParsing="false" onAction="#n6" text="Pesan" />
+      <JFXButton fx:id="buttonbalikn1" layoutX="613.0" layoutY="65.0" onAction="#prosesbalikn1" style="-fx-background-color: #EEE8AA;" text="1" />
+      <JFXButton fx:id="butttombalikn2" layoutX="643.0" layoutY="65.0" onAction="#prosesbalikn2" style="-fx-background-color: #EEE8AA;" text="2" />
+      <Label layoutX="584.0" layoutY="69.0" text="hal" />
+      <JFXButton fx:id="buttonbackn" layoutX="675.0" layoutY="65.0" onAction="#prosesbackn" prefHeight="17.0" prefWidth="87.0" style="-fx-background-color: #EEE8AA;" text="Kembali" />
+   </children>
+</AnchorPane>

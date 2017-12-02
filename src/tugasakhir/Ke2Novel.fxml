@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="713.0" prefWidth="793.0" style="-fx-background-color: #FFDEAD;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tugasakhir.Ke2NovelController">
+   <children>
+      <Label layoutX="56.0" layoutY="32.0" prefHeight="43.0" prefWidth="87.0" text="Novel">
+         <font>
+            <Font name="Luna" size="24.0" />
+         </font>
+      </Label>
+      <Separator layoutX="36.0" layoutY="92.0" prefWidth="200.0" style="-fx-background-color: #191970;" />
+      <ImageView fitHeight="186.0" fitWidth="130.0" layoutX="24.0" layoutY="126.0">
+         <image>
+            <Image url="@../gambar/n7.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="186.0" fitWidth="137.0" layoutX="399.0" layoutY="127.0">
+         <image>
+            <Image url="@../gambar/n8.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="186.0" fitWidth="130.0" layoutX="23.0" layoutY="318.0">
+         <image>
+            <Image url="@../gambar/n9.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="186.0" fitWidth="137.0" layoutX="400.0" layoutY="322.0">
+         <image>
+            <Image url="@../gambar/n10.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="186.0" fitWidth="130.0" layoutX="23.0" layoutY="513.0">
+         <image>
+            <Image url="@../gambar/n11.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="186.0" fitWidth="137.0" layoutX="400.0" layoutY="516.0">
+         <image>
+            <Image url="@../gambar/n12.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="159.0" layoutY="126.0" prefHeight="186.0" prefWidth="222.0" text="--Geez &amp; Ann #1--&#10;Rp 61.600&#10;No. ISBN9789797809062&#10;Penulis Rintik Sedu&#10;PenerbitGagasMedia &#10;Tanggal terbitDesember - 2017&#10;Jumlah Halaman264&#10;Berat Buku250 gr" />
+      <Button fx:id="buttonn7" layoutX="289.0" layoutY="273.0" mnemonicParsing="false" onAction="#n7" text="Pesan" />
+      <TextArea editable="false" layoutX="549.0" layoutY="127.0" prefHeight="186.0" prefWidth="222.0" text="--Geez &amp; Ann #2--&#10;Rp 61.600&#10;No. ISBN9789797809102&#10;Penulis Rintik Sedu&#10;PenerbitGagasMedia &#10;Tanggal terbitDesember - 2017&#10;Jumlah Halaman260&#10;Berat Buku250 gr" />
+      <Button fx:id="buttonn8" layoutX="694.0" layoutY="273.0" mnemonicParsing="false" onAction="#n8" text="Pesan" />
+      <TextArea editable="false" layoutX="159.0" layoutY="318.0" prefHeight="186.0" prefWidth="222.0" text="--Rindu Cover Baru--&#10;Rp 55.200&#10;No. ISBN9786028997904&#10;PenulisTere Liye&#10;PenerbitRepublika &#10;Tanggal terbitJuni - 2016&#10;Jumlah Halaman-&#10;Berat Buku500 gr" />
+      <Button fx:id="buttonn9" layoutX="289.0" layoutY="464.0" mnemonicParsing="false" onAction="#n9" text="Pesan" />
+      <TextArea editable="false" layoutX="549.0" layoutY="322.0" prefHeight="186.0" prefWidth="222.0" text="--Anak Rantau-- &#10;Rp 72.000&#10;No. ISBN9786026051493&#10;PenulisA. Fuadi&#10;PenerbitFalcon Publishing &#10;Tanggal terbitJuli - 2017&#10;Jumlah Halaman382&#10;Berat Buku400 gr" />
+      <Button fx:id="buttonn10" layoutX="694.0" layoutY="464.0" mnemonicParsing="false" onAction="#n10" text="Pesan" />
+      <TextArea editable="false" layoutX="159.0" layoutY="516.0" prefHeight="186.0" prefWidth="222.0" text="--Daun Yang Jatuh Tak Pernah &#10;Membenci Angin--&#10;Rp 45.050&#10;No. ISBN9786020331607&#10;PenulisTere-Liye&#10;PenerbitGramedia Pustaka Utama &#10;Tanggal terbitJuni - 2016&#10;Jumlah Halaman264&#10;Berat Buku250 gr" />
+      <Button fx:id="buttonn11" layoutX="289.0" layoutY="665.0" mnemonicParsing="false" onAction="#n11" text="Pesan" />
+      <TextArea editable="false" layoutX="549.0" layoutY="516.0" prefHeight="186.0" prefWidth="222.0" text="--Cinta Tak Harus Kecewa--&#10;Rp 46.750&#10;No. ISBN9786021036679&#10;PenulisESTI WULANSARI&#10;PenerbitTransMedia Pustaka &#10;Tanggal terbitNovember - 2017&#10;Jumlah Halaman198&#10;Berat Buku250 gr" />
+      <Button fx:id="buttonn12" layoutX="694.0" layoutY="659.0" mnemonicParsing="false" onAction="#n12" text="Pesan" />
+      <Label layoutX="549.0" layoutY="84.0" text="hal" />
+      <JFXButton fx:id="button1" layoutX="583.0" layoutY="80.0" onAction="#back1" style="-fx-background-color: #EEE8AA;" text="1" />
+      <JFXButton fx:id="button2" layoutX="613.0" layoutY="81.0" onAction="#back2" style="-fx-background-color: #EEE8AA;" text="2" />
+      <JFXButton fx:id="buttonkembali" layoutX="649.0" layoutY="81.0" onAction="#kembali" prefHeight="25.0" prefWidth="95.0" style="-fx-background-color: #EEE8AA;" text="Kembali" />
+   </children>
+</AnchorPane>

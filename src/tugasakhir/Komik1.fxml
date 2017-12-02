@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="708.0" prefWidth="793.0" style="-fx-background-color: #CD5C5C;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tugasakhir.Komik1Controller">
+   <children>
+      <Label layoutX="88.0" layoutY="37.0" prefHeight="61.0" prefWidth="153.0" text="Komik">
+         <font>
+            <Font name="Luna" size="24.0" />
+         </font>
+      </Label>
+      <Separator layoutX="68.0" layoutY="97.0" prefWidth="200.0" style="-fx-background-color: #191970;" />
+      <ImageView fitHeight="186.0" fitWidth="133.0" layoutX="14.0" layoutY="128.0">
+         <image>
+            <Image url="@../gambar/k1.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="154.0" layoutY="128.0" prefHeight="186.0" prefWidth="225.0" text="--Komik Dari Twit-nya Raditya Dika --&#10;Rp 34.650&#10;No. ISBN9769797808549&#10;PenulisRaditya Dika&#10;PenerbitGagasMedia &#10;Tanggal terbitFebruari - 2016&#10;Jumlah Halaman140&#10;Berat Buku250 gr" />
+      <Button fx:id="buttonk1" layoutX="303.0" layoutY="279.0" mnemonicParsing="false" onAction="#k1" text="Pesan" />
+      <ImageView fitHeight="186.0" fitWidth="133.0" layoutX="396.0" layoutY="128.0">
+         <image>
+            <Image url="@../gambar/k2.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="535.0" layoutY="128.0" prefHeight="186.0" prefWidth="240.0" text="--Komik Anak Muslim--  &#10;Rp 84.575&#10;No. ISBN9786026380548&#10;PenulisDian Kristiani, Wawan Kungkang&#10;PenerbitAnak Hebat Indonesia &#10;Tanggal terbitFebruari - 2017&#10;Jumlah Halaman108&#10;Berat Buku250 gr" />
+      <Button fx:id="buttonk2" layoutX="717.0" layoutY="279.0" mnemonicParsing="false" onAction="#k2" text="Pesan" />
+      <JFXButton fx:id="buttonbalikk1" layoutX="615.0" layoutY="88.0" onAction="#prosesbalikk1" style="-fx-background-color: #EEE8AA;" text="1" />
+      <JFXButton fx:id="butttombalikk2" layoutX="645.0" layoutY="88.0" onAction="#prosesbalikk2" style="-fx-background-color: #EEE8AA;" text="2" />
+      <Label layoutX="586.0" layoutY="92.0" text="hal" />
+      <JFXButton fx:id="buttonbackk" layoutX="677.0" layoutY="88.0" onAction="#prosesbackk" prefHeight="17.0" prefWidth="87.0" style="-fx-background-color: #EEE8AA;" text="Kembali" />
+      <ImageView fitHeight="186.0" fitWidth="133.0" layoutX="13.0" layoutY="321.0">
+         <image>
+            <Image url="@../gambar/k3.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="154.0" layoutY="321.0" prefHeight="186.0" prefWidth="225.0" text="--Komik Nilai-Nilai Karakter Bangsa: &#10;Semangat Kebangsaan (Bilingual)--&#10;Rp 31.450&#10;No. ISBN9786022681427&#10;PenulisTim Luxima&#10;PenerbitLuxima &#10;Tanggal terbitOktober - 2016&#10;Jumlah Halaman-&#10;Berat Buku250 gr" />
+      <Button fx:id="buttonk3" layoutX="303.0" layoutY="472.0" mnemonicParsing="false" onAction="#k3" text="Pesan" />
+      <ImageView fitHeight="186.0" fitWidth="133.0" layoutX="395.0" layoutY="320.0">
+         <image>
+            <Image url="@../gambar/k4.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="537.0" layoutY="320.0" prefHeight="186.0" prefWidth="240.0" text="--14 Jurus Membuat Komik VER.02 +&#10; Legenda Sawung Kampret (PAKET) -- &#10;Rp 72.250&#10;No. ISBN096748425794758&#10;Penulistoni masdiono&#10;PenerbitDwitama Asrimedia &#10;Tanggal terbitMei - 2014&#10;Jumlah Halaman-&#10;Berat Buku470 gr" />
+      <Button fx:id="buttonk4" layoutX="719.0" layoutY="472.0" mnemonicParsing="false" onAction="#k4" text="Pesan" />
+      <ImageView fitHeight="179.0" fitWidth="133.0" layoutX="14.0" layoutY="514.0">
+         <image>
+            <Image url="@../gambar/k5.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="155.0" layoutY="511.0" prefHeight="186.0" prefWidth="225.0" text="--Asami-sensei s Secret 01 of 4 --&#10;Rp 19.125&#10;No. ISBN9786024286538&#10;PenulisBhika&#10;PenerbitM&amp;C &#10;Tanggal terbitNovember - 2017&#10;Jumlah Halaman192&#10;Berat Buku150 gr" />
+      <Button fx:id="buttonk5" layoutX="305.0" layoutY="662.0" mnemonicParsing="false" onAction="#k5" text="Pesan" />
+      <ImageView fitHeight="186.0" fitWidth="133.0" layoutX="397.0" layoutY="512.0">
+         <image>
+            <Image url="@../gambar/k6.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="537.0" layoutY="512.0" prefHeight="186.0" prefWidth="240.0" text="--Komik Next G: My Best Teacher--&#10;Rp 27.200&#10;No. ISBN9786023674480&#10;PenulisAthifa Nur Lunanissa, &#10;Auliya Zhafira Altafunisa, &#10;Najla Haura Tsabita, dkk.&#10;PenerbitMuffin Graphics &#10;Tanggal terbitNovember - 2017&#10;Jumlah Halaman104&#10;Berat Buku150 gr" />
+      <Button fx:id="buttonk6" layoutX="719.0" layoutY="664.0" mnemonicParsing="false" onAction="#k6" text="Pesan" />
+   </children>
+</AnchorPane>

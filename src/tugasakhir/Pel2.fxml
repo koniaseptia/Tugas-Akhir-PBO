@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="734.0" prefWidth="785.0" style="-fx-background-color: #87CEEB;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tugasakhir.Pel2Controller">
+   <children>
+      <Label layoutX="66.0" layoutY="42.0" prefHeight="61.0" prefWidth="153.0" text="Pelajaran">
+         <font>
+            <Font name="Luna" size="24.0" />
+         </font>
+      </Label>
+      <Separator layoutX="46.0" layoutY="102.0" prefWidth="200.0" style="-fx-background-color: #191970;" />
+      <ImageView fitHeight="186.0" fitWidth="137.0" layoutX="14.0" layoutY="134.0">
+         <image>
+            <Image url="@../gambar/p1.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="160.0" layoutY="135.0" prefHeight="186.0" prefWidth="222.0" text="--Hafal Mahir Teori dan Rumus &#10;IPA SMP/MTs Kelas 7, 8, 9 --&#10;Rp 46.750&#10;No. ISBN9786024524142&#10;PenulisAslizar&#10;PenerbitGrasindo &#10;Tanggal terbitOktober - 2017&#10;Jumlah Halaman504&#10;Berat Buku400 gr" />
+      <Button fx:id="buttonp1" layoutX="297.0" layoutY="283.0" mnemonicParsing="false" onAction="#p1" text="Pesan" />
+      <ImageView fitHeight="186.0" fitWidth="133.0" layoutX="392.0" layoutY="135.0">
+         <image>
+            <Image url="@../gambar/p2.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="534.0" layoutY="136.0" prefHeight="186.0" prefWidth="222.0" text="--Top Master Olimpiade Matematika &#10;SMP Nasional dan Internasional --&#10;Rp 93.500&#10;No. ISBN9786024524357&#10;PenulisMuslihun&#10;PenerbitGrasindo &#10;Tanggal terbitNovember - 2017&#10;Jumlah Halaman620&#10;Berat Buku700 gr" />
+      <Button fx:id="buttonp2" layoutX="671.0" layoutY="284.0" mnemonicParsing="false" onAction="#p2" text="Pesan" />
+      <ImageView fitHeight="186.0" fitWidth="137.0" layoutX="14.0" layoutY="329.0">
+         <image>
+            <Image url="@../gambar/p3.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="160.0" layoutY="329.0" prefHeight="186.0" prefWidth="222.0" text="--Ilmu Kebumian Dan Antariksa--  &#10;Rp 41.600&#10;No. ISBN9789796921485&#10;PenulisBayong Tjasyono HK&#10;PenerbitRemaja Rosdakarya &#10;Tanggal terbit2013&#10;Jumlah Halaman228&#10;Berat Buku400 gr" />
+      <Button fx:id="buttonp3" layoutX="297.0" layoutY="477.0" mnemonicParsing="false" onAction="#p3" text="Pesan" />
+      <ImageView fitHeight="186.0" fitWidth="133.0" layoutX="392.0" layoutY="328.0">
+         <image>
+            <Image url="@../gambar/p4.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="534.0" layoutY="328.0" prefHeight="186.0" prefWidth="222.0" text="--Otodidak MySQL untuk Pemula--&#10;Rp 41.480&#10;No. ISBN9786020450179&#10;PenulisJubilee Enterprise&#10;PenerbitElex Media Komputindo &#10;Tanggal terbitNovember - 2017&#10;Jumlah Halaman184&#10;Berat Buku300 gr" />
+      <Button fx:id="buttonp4" layoutX="671.0" layoutY="476.0" mnemonicParsing="false" onAction="#p4" text="Pesan" />
+      <ImageView fitHeight="186.0" fitWidth="137.0" layoutX="14.0" layoutY="525.0">
+         <image>
+            <Image url="@../gambar/p5.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="160.0" layoutY="525.0" prefHeight="186.0" prefWidth="222.0" text="--Belajar VB, Visual C#, dan Python &#10;Menggunakan Visual Studio --&#10;Rp 38.080&#10;No. ISBN9786020448343&#10;PenulisJubilee Enterprise&#10;PenerbitElex Media Komputindo &#10;Tanggal terbitOktober - 2017&#10;Jumlah Halaman160&#10;Berat Buku150 gr" />
+      <Button fx:id="buttonp5" layoutX="297.0" layoutY="673.0" mnemonicParsing="false" onAction="#p5" text="Pesan" />
+      <ImageView fitHeight="186.0" fitWidth="133.0" layoutX="392.0" layoutY="525.0">
+         <image>
+            <Image url="@../gambar/p6.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="534.0" layoutY="525.0" prefHeight="186.0" prefWidth="222.0" text="--Cara Laris Jualan Kuliner via &#10;Media Sosial--&#10;Rp 42.500&#10;No. ISBN9786024072353&#10;PenulisPuspita RM&#10;PenerbitLaksana &#10;Tanggal terbitNovember - 2017&#10;Jumlah Halaman192&#10;Berat Buku250 gr" />
+      <Button fx:id="buttonp6" layoutX="671.0" layoutY="673.0" mnemonicParsing="false" onAction="#p6" text="Pesan" />
+      <Label layoutX="559.0" layoutY="94.0" text="hal" />
+      <JFXButton fx:id="buttonp1" layoutX="593.0" layoutY="90.0" onAction="#backp1" style="-fx-background-color: #EEE8AA;" text="1" />
+      <JFXButton fx:id="buttonp2" layoutX="623.0" layoutY="91.0" onAction="#backp2" style="-fx-background-color: #EEE8AA;" text="2" />
+      <JFXButton fx:id="buttonkembalip" layoutX="659.0" layoutY="91.0" onAction="#kembalip" prefHeight="25.0" prefWidth="95.0" style="-fx-background-color: #EEE8AA;" text="Kembali" />
+   </children>
+</AnchorPane>

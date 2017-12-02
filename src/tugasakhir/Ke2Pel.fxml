@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="737.0" prefWidth="786.0" style="-fx-background-color: #87CEEB;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tugasakhir.Ke2PelController">
+   <children>
+      <Label layoutX="76.0" layoutY="52.0" prefHeight="61.0" prefWidth="153.0" text="Pelajaran">
+         <font>
+            <Font name="Luna" size="24.0" />
+         </font>
+      </Label>
+      <Separator layoutX="56.0" layoutY="112.0" prefWidth="200.0" style="-fx-background-color: #191970;" />
+      <ImageView fitHeight="186.0" fitWidth="133.0" layoutX="24.0" layoutY="144.0">
+         <image>
+            <Image url="@../gambar/p7.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="167.0" layoutY="143.0" prefHeight="186.0" prefWidth="222.0" text="--SMART BOOK OF GRAMMAR--&#10;Rp 56.100&#10;No. ISBN9786026992949&#10;PenulisAgus Priyanto&#10;PenerbitCmedia &#10;Tanggal terbitNovember - 2017&#10;Jumlah Halaman514&#10;Berat Buku450 gr" />
+      <Button fx:id="buttonp7" layoutX="309.0" layoutY="294.0" mnemonicParsing="false" onAction="#p7" text="Pesan" />
+      <ImageView fitHeight="186.0" fitWidth="133.0" layoutX="404.0" layoutY="143.0">
+         <image>
+            <Image url="@../gambar/p8.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="541.0" layoutY="143.0" prefHeight="186.0" prefWidth="240.0" text="--Kamus Inggris - Indonesia Edisi Yang&#10; Diperbaharui--&#10;Rp 151.300&#10;No. ISBN9786020305646&#10;PenulisJohn M. Echols dan Hassan &#10;Shadily&#10;PenerbitGramedia Pustaka Utama &#10;Tanggal terbit2014&#10;Jumlah Halaman-&#10;Berat Buku1000 gr" />
+      <Button fx:id="buttonp8" layoutX="683.0" layoutY="294.0" mnemonicParsing="false" onAction="#p8" text="Pesan" />
+      <ImageView fitHeight="186.0" fitWidth="133.0" layoutX="22.0" layoutY="334.0">
+         <image>
+            <Image url="@../gambar/p9.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="167.0" layoutY="334.0" prefHeight="186.0" prefWidth="222.0" text="-Dino Ding: Belajar Bahasa Inggris 1--&#10;Rp 34.000&#10;No. ISBN9786024524296&#10;PenulisFerdinanda Sri Tjondro Utami&#10;PenerbitGrasindo &#10;Tanggal terbitNovember - 2017&#10;Jumlah Halaman48&#10;Berat Buku100 gr" />
+      <Button fx:id="buttonp9" layoutX="309.0" layoutY="485.0" mnemonicParsing="false" onAction="#p9" text="Pesan" />
+      <ImageView fitHeight="186.0" fitWidth="133.0" layoutX="404.0" layoutY="334.0">
+         <image>
+            <Image url="@../gambar/p10.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="541.0" layoutY="334.0" prefHeight="186.0" prefWidth="240.0" text="--The Master of TOEIC--&#10;Rp 105.400&#10;No. ISBN9786024260903&#10;PenulisIisrohli Irawati S,S., S.Pd., &#10;M.Hum, Yunita Widiyantari S,S., &#10;M.Hum, Nur Saptaningsih, S.Hum., M.Hu&#10;PenerbitB-First &#10;Tanggal terbitNovember - 2017&#10;Jumlah Halaman420&#10;Berat Buku450 gr" />
+      <Button fx:id="buttonp10" layoutX="683.0" layoutY="485.0" mnemonicParsing="false" onAction="#p10" text="Pesan" />
+      <ImageView fitHeight="186.0" fitWidth="133.0" layoutX="24.0" layoutY="527.0">
+         <image>
+            <Image url="@../gambar/p11.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="167.0" layoutY="527.0" prefHeight="186.0" prefWidth="222.0" text="--Undang-Undang Ketenagakerjaan &#10;Terbaru Dan Terlengkap --&#10; Rp 50.575&#10;No. ISBN9786026595942&#10;PenulisTim Legality&#10;PenerbitAnak Hebat Indonesia &#10;Tanggal terbitNovember - 2017&#10;Jumlah Halaman442&#10;Berat Buku400 gr" />
+      <Button fx:id="buttonp11" layoutX="309.0" layoutY="678.0" mnemonicParsing="false" onAction="#p11" text="Pesan" />
+      <ImageView fitHeight="186.0" fitWidth="133.0" layoutX="403.0" layoutY="530.0">
+         <image>
+            <Image url="@../gambar/p12.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="541.0" layoutY="527.0" prefHeight="186.0" prefWidth="240.0" text="--UUD 1945 AMANDEMEN&#10; (Genesis Learning)--&#10;Rp 26.550&#10;No. ISBN9786026805935&#10;PenulisTim Smart Genesis&#10;PenerbitHutapaint &#10;Tanggal terbitNovember - 2017&#10;Jumlah Halaman-&#10;Berat Buku200 gr" />
+      <Button fx:id="buttonp12" layoutX="683.0" layoutY="678.0" mnemonicParsing="false" onAction="#p12" text="Pesan" />
+      <JFXButton fx:id="buttonbalikp1" layoutX="623.0" layoutY="75.0" onAction="#prosesbalikp1" style="-fx-background-color: #EEE8AA;" text="1" />
+      <JFXButton fx:id="butttombalikp2" layoutX="653.0" layoutY="75.0" onAction="#prosesbalikp2" style="-fx-background-color: #EEE8AA;" text="2" />
+      <Label layoutX="594.0" layoutY="79.0" text="hal" />
+      <JFXButton fx:id="buttonbackp" layoutX="685.0" layoutY="75.0" onAction="#prosesbackp" prefHeight="17.0" prefWidth="87.0" style="-fx-background-color: #EEE8AA;" text="Kembali" />
+   </children>
+</AnchorPane>

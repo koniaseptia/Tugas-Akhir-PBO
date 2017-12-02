@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="719.0" prefWidth="785.0" style="-fx-background-color: #008080;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tugasakhir.Ke2MasakController">
+   <children>
+      <Label layoutX="89.0" layoutY="32.0" prefHeight="61.0" prefWidth="153.0" text="Masakan">
+         <font>
+            <Font name="Luna" size="24.0" />
+         </font>
+      </Label>
+      <Separator layoutX="69.0" layoutY="92.0" prefWidth="200.0" style="-fx-background-color: #191970;" />
+      <ImageView fitHeight="186.0" fitWidth="133.0" layoutX="15.0" layoutY="122.0">
+         <image>
+            <Image url="@../gambar/m7.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="158.0" layoutY="123.0" prefHeight="186.0" prefWidth="225.0" text="--100 Resep Kue Kering Andalan &#10;Ny. Liem (Ed. Revisi) --&#10;Rp 159.800&#10;No. ISBN9786020378480&#10;PenulisChendawati&#10;PenerbitGramedia Pustaka Utama &#10;Tanggal terbitNovember - 2017&#10;Jumlah Halaman210&#10;Berat Buku500 gr" />
+      <ImageView fitHeight="186.0" fitWidth="133.0" layoutX="396.0" layoutY="123.0">
+         <image>
+            <Image url="@../gambar/m8.PNG" />
+         </image>
+      </ImageView>
+      <Button fx:id="buttonm7" layoutX="307.0" layoutY="274.0" mnemonicParsing="false" onAction="#m7" text="Pesan" />
+      <TextArea editable="false" layoutX="537.0" layoutY="123.0" prefHeight="186.0" prefWidth="240.0" text="--Resep Pilihan Ny. Liem Dim Sum &#10;Istimewa (Ed. Revisi)--&#10;Rp 66.300&#10;No. ISBN9786020378367&#10;PenulisChendawati&#10;PenerbitGramedia Pustaka Utama &#10;Tanggal terbitNovember - 2017&#10;Jumlah Halaman80&#10;Berat Buku150 gr" />
+      <Button fx:id="buttonm8" layoutX="708.0" layoutY="274.0" mnemonicParsing="false" onAction="#m8" text="Pesan" />
+      <ImageView fitHeight="186.0" fitWidth="133.0" layoutX="15.0" layoutY="314.0">
+         <image>
+            <Image url="@../gambar/m9.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="158.0" layoutY="314.0" prefHeight="186.0" prefWidth="225.0" text="--Tumpeng &amp; Nasi Kuning Karakter--&#10;Rp 102.000&#10;No. ISBN9786020376622&#10;PenulisIndriani&#10;PenerbitGramedia Pustaka Utama &#10;Tanggal terbitOktober - 2017&#10;Jumlah Halaman120&#10;Berat Buku500 gr" />
+      <Button fx:id="buttonm9" layoutX="307.0" layoutY="465.0" mnemonicParsing="false" onAction="#m9" text="Pesan" />
+      <ImageView fitHeight="186.0" fitWidth="133.0" layoutX="397.0" layoutY="314.0">
+         <image>
+            <Image url="@../gambar/m10.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="537.0" layoutY="314.0" prefHeight="186.0" prefWidth="240.0" text="--MENU SEHAT TUMBUH KEMBANG &#10;BALITA NUTRISI OTAK ANAK CERDAS--&#10;Rp 29.750&#10;No. ISBN9786020969763&#10;PenulisKoki Karno&#10;PenerbitDistributor Serambi &#10;Tanggal terbitJuni - 2015&#10;Jumlah Halaman33&#10;Berat Buku100 gr" />
+      <Button fx:id="buttonm10" layoutX="708.0" layoutY="465.0" mnemonicParsing="false" onAction="#m10" text="Pesan" />
+      <ImageView fitHeight="186.0" fitWidth="133.0" layoutX="14.0" layoutY="507.0">
+         <image>
+            <Image url="@../gambar/m11.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="157.0" layoutY="507.0" prefHeight="186.0" prefWidth="225.0" text="--Gastronomi Molekuler --&#10;Rp 123.250&#10;No. ISBN9786020356457&#10;PenulisF.g Winarno &amp; &#10;Sergio Andino Ahnan Winarno&#10;PenerbitGramedia Pustaka Utama &#10;Tanggal terbitSeptember - 2017&#10;Jumlah Halaman169&#10;Berat Buku150 gr" />
+      <Button fx:id="buttonm11" layoutX="306.0" layoutY="658.0" mnemonicParsing="false" onAction="#m11" text="Pesan" />
+      <ImageView fitHeight="186.0" fitWidth="133.0" layoutX="397.0" layoutY="509.0">
+         <image>
+            <Image url="@../gambar/m12.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="537.0" layoutY="507.0" prefHeight="186.0" prefWidth="240.0" text="--Resep Cookies Dona s Delight --&#10;Rp 76.500&#10;No. ISBN9786020376158&#10;PenulisRiyas Irmadona&#10;PenerbitGramedia Pustaka Utama &#10;Tanggal terbitOktober - 2017&#10;Jumlah Halaman91&#10;Berat Buku150 gr" />
+      <Button fx:id="buttonm12" layoutX="708.0" layoutY="658.0" mnemonicParsing="false" onAction="#m12" text="Pesan" />
+      <Label layoutX="560.0" layoutY="86.0" text="hal" />
+      <JFXButton fx:id="buttonm1" layoutX="594.0" layoutY="82.0" onAction="#backm1" style="-fx-background-color: #EEE8AA;" text="1" />
+      <JFXButton fx:id="buttonm2" layoutX="624.0" layoutY="83.0" onAction="#backm2" style="-fx-background-color: #EEE8AA;" text="2" />
+      <JFXButton fx:id="buttonkembalim" layoutX="660.0" layoutY="83.0" onAction="#kembalim" prefHeight="25.0" prefWidth="95.0" style="-fx-background-color: #EEE8AA;" text="Kembali" />
+   </children>
+</AnchorPane>

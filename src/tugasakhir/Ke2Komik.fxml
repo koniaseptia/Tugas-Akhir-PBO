@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="721.0" prefWidth="796.0" style="-fx-background-color: #CD5C5C;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tugasakhir.Ke2KomikController">
+   <children>
+      <Label layoutX="88.0" layoutY="37.0" prefHeight="61.0" prefWidth="153.0" text="Komik">
+         <font>
+            <Font name="Luna" size="24.0" />
+         </font>
+      </Label>
+      <Separator layoutX="68.0" layoutY="97.0" prefWidth="200.0" style="-fx-background-color: #191970;" />
+      <Label layoutX="569.0" layoutY="88.0" text="hal" />
+      <JFXButton fx:id="buttonk1" layoutX="603.0" layoutY="84.0" onAction="#backk1" style="-fx-background-color: #EEE8AA;" text="1" />
+      <JFXButton fx:id="buttonk2" layoutX="633.0" layoutY="85.0" onAction="#backk2" style="-fx-background-color: #EEE8AA;" text="2" />
+      <JFXButton fx:id="buttonkembalik" layoutX="669.0" layoutY="85.0" onAction="#kembalik" prefHeight="25.0" prefWidth="95.0" style="-fx-background-color: #EEE8AA;" text="Kembali" />
+      <ImageView fitHeight="186.0" fitWidth="133.0" layoutX="11.0" layoutY="129.0">
+         <image>
+            <Image url="@../gambar/k7.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="153.0" layoutY="129.0" prefHeight="186.0" prefWidth="225.0" text="--Ngopi, Yuk! Di Warkop Pak Gundul --&#10;Rp 70.400&#10;No. ISBN9786022202462&#10;PenulisAssyifa S. Arum &amp; &#10;Romy Hernadi&#10;PenerbitBukune &#10;Tanggal terbitNovember - 2017&#10;Jumlah Halaman244&#10;Berat Buku250 gr" />
+      <Button fx:id="buttonk7" layoutX="313.0" layoutY="279.0" mnemonicParsing="false" onAction="#k7" text="Pesan" />
+      <ImageView fitHeight="186.0" fitWidth="133.0" layoutX="390.0" layoutY="129.0">
+         <image>
+            <Image url="@../gambar/k8.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="528.0" layoutY="129.0" prefHeight="186.0" prefWidth="260.0" text="COMUS #1: Sebuah Antologi KomikMuslimah&#10;Rp 35.000&#10;No. ISBN0873496368973&#10;Penulissafiratigerchan, aliyyaluthfia, &#10;loompingkuda, mifta_fetrisia, &#10;isminita01, choco_tsu, dinds_art, koiz&#10;PenerbitIhsan Media &#10;Tanggal terbitNovember - 2017&#10;Jumlah Halaman152&#10;Berat Buku250 gr" />
+      <Button fx:id="buttonk8" layoutX="727.0" layoutY="279.0" mnemonicParsing="false" onAction="#k8" text="Pesan" />
+      <ImageView fitHeight="186.0" fitWidth="133.0" layoutX="10.0" layoutY="325.0">
+         <image>
+            <Image url="@../gambar/k9.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="153.0" layoutY="325.0" prefHeight="186.0" prefWidth="225.0" text="--Boys in Love--&#10;Rp 19.125&#10;No. ISBN9786024286149&#10;PenulisHikaru ASAGI&#10;PenerbitM&amp;C &#10;Tanggal terbitNovember - 2017&#10;Jumlah Halaman184&#10;Berat Buku150 gr" />
+      <Button fx:id="buttonk9" layoutX="313.0" layoutY="475.0" mnemonicParsing="false" onAction="#k9" text="Pesan" />
+      <ImageView fitHeight="186.0" fitWidth="133.0" layoutX="391.0" layoutY="324.0">
+         <image>
+            <Image url="@../gambar/k10.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="528.0" layoutY="324.0" prefHeight="186.0" prefWidth="260.0" text="--Terlalu Tampan--&#10;Rp 58.905&#10;No. ISBN9786022202455&#10;PenulisM.A. AVISIENA HELVIN &amp; &#10;SAVENIA MELINDA S.&#10;PenerbitBukune &#10;Tanggal terbitDesember - 2017&#10;Jumlah Halaman172&#10;Berat Buku250 gr" />
+      <Button fx:id="buttonk10" layoutX="727.0" layoutY="474.0" mnemonicParsing="false" onAction="#k10" text="Pesan" />
+      <ImageView fitHeight="186.0" fitWidth="133.0" layoutX="10.0" layoutY="517.0">
+         <image>
+            <Image url="@../gambar/k11.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="153.0" layoutY="517.0" prefHeight="186.0" prefWidth="225.0" text="--Komik Detektif KKPK: Misteri &#10;Sosok Berjubah  Buku Baru--&#10;Rp 31.450&#10;No. ISBN9786024204945&#10;PenulisDiadjeng Laraswati Hanindyani&#10;PenerbitDAR! Mizan &#10;Tanggal terbitNovember - 2017&#10;Jumlah Halaman120&#10;Berat Buku200 gr" />
+      <Button fx:id="buttonk11" layoutX="313.0" layoutY="667.0" mnemonicParsing="false" onAction="#k11" text="Pesan" />
+      <ImageView fitHeight="186.0" fitWidth="133.0" layoutX="392.0" layoutY="518.0">
+         <image>
+            <Image url="@../gambar/k12.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="530.0" layoutY="517.0" prefHeight="186.0" prefWidth="260.0" text="-Komik Meng Edisi Warna: &#10;Rumah Kosong  Buku Baru--&#10;Rp 29.750&#10;No. ISBN9786023674190&#10;PenulisRendra M. Ridwan&#10;PenerbitMuffin Graphics &#10;Tanggal terbitNovember - 2017&#10;Jumlah Halaman88&#10;Berat Buku150 gr" />
+      <Button fx:id="buttonk12" layoutX="730.0" layoutY="667.0" mnemonicParsing="false" onAction="#k12" text="Pesan" />
+   </children>
+</AnchorPane>

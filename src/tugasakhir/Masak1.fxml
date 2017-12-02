@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="704.0" prefWidth="798.0" style="-fx-background-color: #008080;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tugasakhir.Masak1Controller">
+   <children>
+      <Label layoutX="94.0" layoutY="30.0" prefHeight="61.0" prefWidth="153.0" text="Masakan">
+         <font>
+            <Font name="Luna" size="24.0" />
+         </font>
+      </Label>
+      <Separator layoutX="74.0" layoutY="90.0" prefWidth="200.0" style="-fx-background-color: #191970;" />
+      <TextArea editable="false" layoutX="539.0" layoutY="121.0" prefHeight="186.0" prefWidth="240.0" text="--Kamus Inggris - Indonesia Edisi Yang&#10; Diperbaharui--&#10;Rp 151.300&#10;No. ISBN9786020305646&#10;PenulisJohn M. Echols dan Hassan &#10;Shadily&#10;PenerbitGramedia Pustaka Utama &#10;Tanggal terbit2014&#10;Jumlah Halaman-&#10;Berat Buku1000 gr" />
+      <ImageView fitHeight="186.0" fitWidth="133.0" layoutX="19.0" layoutY="119.0">
+         <image>
+            <Image url="@../gambar/m1.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="163.0" layoutY="121.0" prefHeight="186.0" prefWidth="222.0" text="--Resep Antigagal Kursus Masak&#10; Ny. Liem; Pastel, Risoles, &amp; &#10;Kroket (Ed. Revisi)--&#10;Rp 51.000&#10;No. ISBN9786020379364&#10;PenulisChendawati&#10;PenerbitGramedia Pustaka Utama &#10;Tanggal terbitNovember - 2017&#10;Jumlah Halaman68&#10;Berat Buku150 gr" />
+      <Button fx:id="buttonm1" layoutX="314.0" layoutY="272.0" mnemonicParsing="false" onAction="#m1" text="Pesan" />
+      <ImageView fitHeight="186.0" fitWidth="133.0" layoutX="399.0" layoutY="121.0">
+         <image>
+            <Image url="@../gambar/m2.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="186.0" fitWidth="133.0" layoutX="18.0" layoutY="310.0">
+         <image>
+            <Image url="@../gambar/m3.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="163.0" layoutY="310.0" prefHeight="186.0" prefWidth="222.0" text="--Sajian Super Cerdas --&#10;Rp 64.600&#10;No. ISBN9789797576530&#10;PenulisROCHENDI &amp; ARIF SUSANTO&#10;PenerbitKawanPustaka &#10;Tanggal terbitNovember - 2017&#10;Jumlah Halaman136&#10;Berat Buku200 gr" />
+      <Button fx:id="buttonm3" layoutX="314.0" layoutY="461.0" mnemonicParsing="false" onAction="#m3" text="Pesan" />
+      <ImageView fitHeight="186.0" fitWidth="133.0" layoutX="401.0" layoutY="312.0">
+         <image>
+            <Image url="@../gambar/m4.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="539.0" layoutY="310.0" prefHeight="186.0" prefWidth="240.0" text="--Kumpulan Resep Seafood Mantap --&#10;Rp 72.250&#10;No. ISBN9789790822948&#10;PenulisZEE AZIHARA &amp; &#10;TIM DAPUR DEMEDIA&#10;PenerbitDemedia Pustaka &#10;Tanggal terbitNovember - 2017&#10;Jumlah Halaman240&#10;Berat Buku250 gr" />
+      <Button fx:id="buttonm2" layoutX="709.0" layoutY="272.0" mnemonicParsing="false" onAction="#m2" text="Pesan" />
+      <Button fx:id="buttonm4" layoutX="709.0" layoutY="461.0" mnemonicParsing="false" onAction="#m4" text="Pesan" />
+      <ImageView fitHeight="186.0" fitWidth="133.0" layoutX="19.0" layoutY="504.0">
+         <image>
+            <Image url="@../gambar/m5.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="163.0" layoutY="504.0" prefHeight="186.0" prefWidth="222.0" text="--Masakan Tionghoa (Ed. Revisi)--&#10;Rp 276.250&#10;No. ISBN9786020379081&#10;PenulisCherry Hadibroto&#10;PenerbitGramedia Pustaka Utama &#10;Tanggal terbitNovember - 2017&#10;Jumlah Halaman280&#10;Berat Buku700 gr" />
+      <Button fx:id="buttonm5" layoutX="314.0" layoutY="655.0" mnemonicParsing="false" onAction="#m5" text="Pesan" />
+      <ImageView fitHeight="186.0" fitWidth="133.0" layoutX="403.0" layoutY="505.0">
+         <image>
+            <Image url="@../gambar/m6.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="540.0" layoutY="504.0" prefHeight="186.0" prefWidth="240.0" text="--Choco Lovers : 30 Kreasi Buket &#10;Cokelat untuk Hari Istimewa--&#10;Rp 91.800&#10;No. ISBN9786020361116&#10;PenulisIndriani &amp; Anandika&#10;PenerbitGramedia Pustaka Utama &#10;Tanggal terbitNovember - 2017&#10;Jumlah Halaman29&#10;Berat Buku300 gr" />
+      <Button fx:id="buttonm6" layoutX="690.0" layoutY="655.0" mnemonicParsing="false" onAction="#m6" text="Pesan" />
+      <JFXButton fx:id="buttonbalikm1" layoutX="633.0" layoutY="85.0" onAction="#prosesbalikm1" style="-fx-background-color: #EEE8AA;" text="1" />
+      <JFXButton fx:id="butttombalikm2" layoutX="663.0" layoutY="85.0" onAction="#prosesbalikm2" style="-fx-background-color: #EEE8AA;" text="2" />
+      <Label layoutX="604.0" layoutY="89.0" text="hal" />
+      <JFXButton fx:id="buttonbackm" layoutX="695.0" layoutY="85.0" onAction="#prosesbackm" prefHeight="17.0" prefWidth="87.0" style="-fx-background-color: #EEE8AA;" text="Kembali" />
+   </children>
+</AnchorPane>

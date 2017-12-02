@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="612.0" prefWidth="746.0" style="-fx-background-color: #66CDAA;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tugasakhir.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Label layoutX="267.0" layoutY="38.0" prefHeight="40.0" prefWidth="251.0" text="BOOK STORE">
+         <font>
+            <Font name="Constantia Bold" size="33.0" />
+         </font>
+      </Label>
+      <Separator layoutX="231.0" layoutY="88.0" prefHeight="1.0" prefWidth="285.0" style="-fx-background-color: #0000CD;" />
+      <Label layoutX="30.0" layoutY="109.0" text="Data Pemesan">
+         <font>
+            <Font name="Century751 BT Italic" size="17.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="44.0" layoutY="137.0" prefHeight="125.0" prefWidth="658.0" style="-fx-background-color: #ADE8E6;">
+         <children>
+            <Label layoutX="14.0" layoutY="21.0" text="Nama Pemesan">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="80.0" text="No Telp">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="356.0" layoutY="21.0" text="Alamat">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="nama" layoutX="131.0" layoutY="17.0" prefHeight="40.0" prefWidth="180.0" />
+            <TextField fx:id="telp" layoutX="131.0" layoutY="74.0" prefHeight="32.0" prefWidth="180.0" />
+            <TextField fx:id="alamat" layoutX="427.0" layoutY="12.0" prefHeight="97.0" prefWidth="198.0" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="30.0" layoutY="273.0" text="Pemesanan">
+         <font>
+            <Font name="Century751 BT Italic" size="17.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="45.0" layoutY="323.0" prefHeight="210.0" prefWidth="658.0" style="-fx-background-color: #ADE8E6;">
+         <children>
+            <Label layoutX="10.0" layoutY="70.0" text="Kode Barang">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="117.0" text="Kategori">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="kode" layoutX="127.0" layoutY="68.0" prefHeight="25.0" prefWidth="180.0" />
+            <Label layoutX="10.0" layoutY="28.0" text="Tanggal Pesan">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="336.0" layoutY="29.0" text="Judul Buku ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="judul" layoutX="445.0" layoutY="26.0" prefHeight="40.0" prefWidth="149.0" />
+            <Label layoutX="336.0" layoutY="80.0" text="Harga Buku">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="harga" layoutX="445.0" layoutY="78.0" />
+            <ChoiceBox fx:id="kategori" layoutX="127.0" layoutY="115.0" prefHeight="25.0" prefWidth="180.0" />
+            <DatePicker fx:id="tanggal" layoutX="127.0" layoutY="27.0" prefHeight="25.0" prefWidth="180.0" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="buttonsimpan" layoutX="61.0" layoutY="554.0" mnemonicParsing="false" onAction="#simpan" prefHeight="40.0" prefWidth="130.0" text="Pesan Sekarang" />
+      <Button fx:id="buttonreset" layoutX="228.0" layoutY="554.0" mnemonicParsing="false" onAction="#reset" prefHeight="40.0" prefWidth="130.0" text="Reset" />
+      <Button fx:id="buttonkeluar" layoutX="407.0" layoutY="554.0" mnemonicParsing="false" onAction="#keluar" prefHeight="40.0" prefWidth="120.0" text="Keluar" />
+      <Button fx:id="buttonkembali" layoutX="565.0" layoutY="554.0" mnemonicParsing="false" onAction="#kembali" prefHeight="40.0" prefWidth="120.0" text="Kembali" />
+    </children>
+</AnchorPane>
